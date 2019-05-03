@@ -1,0 +1,29 @@
+CHANGELOG:
+STEVEN HOLDER, DILLON LARSON, RYAN WALKUP
+
+3/10/2019
+	- Created Base Menu form with buttons 
+	- Added Student Class
+	- Created List to store Student objects & Buttons
+3/19/2019
+	- Changed all buttons to picture boxes per discussion with Professor Bassetti
+3/30/2019
+	- Added class/method to read from excel file
+4/4/2019
+	- Reworked Excel method to read from CSV (work in progress)
+	- Deleted Excel class
+4/5/2019
+	- Completed CSV reader function
+4/14/2019
+	- Wrote methods for changing back.color of picture boxes
+	- Wrote method for reading/accumulating "Absences" of datagridview (from CSV) by 1
+4/21/2019
+	- Replaced Datagridview method with simple read/write to and from CSV
+	- Added methods to scan for all objects of type picturebox and add them to list
+4/26/2019
+	- Finished Savefile method for writing information back into CSV
+	- Finished classroom layout
+	- Added "View Students" method/form for easy viewing of CSV info from within application
+5/1/2019
+	- Tied all 52 pictureboxes to same event handler to reduce code (350+ -> 162+)
+	- Added comments and finalized code structure
